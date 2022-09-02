@@ -1,0 +1,43 @@
+body {
+    font-family: 'Permanent Marker';
+    background-image: url("/texturacarton.jpg");
+}
+
+#value {
+    font-size: 70px;
+}
+
+input,
+button {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    mix-blend-mode: multiply;
+    border: 3px dashed black;
+}
+
+button,
+#bAdd {
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    background-image: url("/marcoinput.png");
+    color: white;
+    mix-blend-mode: multiply;
+    border: none;
+}
+
+#tache {
+    position: absolute;
+    max-width: 400px;
+}
+
+
+.title,
+#taskName,
+.hecho {
+    font-size: 60px;
+}
+
+#tache {
+    position: absolute;
+    max-width: 700px;
+}
